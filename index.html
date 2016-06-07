@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <meta charset="utf-8">
-    <title></title>
+
+    <title>Playlist</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-      <select name="my_select" style="height: 40px; line-height: 100px;">
-        <option name="reggae"> Select your genre </option>
-        <option name="reggae"> Reggae </option>
-        <option name="blues"> Blues </option>
-      </select>
+
+    <header class="header"></header>
+
+      <section class="container-right">
+        <div>
+          <img src="resources/track.jpg" id="tracks" />
+        </div>
+        <div id="pic1pos">
+          <img src="images/division_bell.jpg" id="pic1">
+      </div>
+      <div id="pic2pos">
+          <img src="images/thriller.jpg" id="pic2"/>
+      </div>
+      <div id="pic3pos">
+          <img src="images/red.jpg" id="pic3"/>
+      </div>
+  </section>
+  <section class="container-left">
+    <div id="tb">
+       <p>track bin</p>
+     </div>
+     <div id="button">
+        <input type="button" id="color" name="name" value="choose tracks">
+    </div>
+  </section>
+
+    <footer class="footer">
+        <div id="copywrite">
+          <p id="crFont">2015 Michael Olson</p>
+        </div>
+      </footer>
 
   </body>
 </html>
