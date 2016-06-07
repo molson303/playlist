@@ -13,6 +13,7 @@
   background-color: #7f8185;
   height: 5vh;
   width:100%;
+  border: 1px solid black;
 }
 .container-right{
   position: absolute;
@@ -21,7 +22,7 @@
   width: 50%;
   float: right;
   margin-left: 50%;
-  
+
   }
 .container-left{
     position: absolute;
@@ -38,6 +39,7 @@
   width: 100%;
   margin-top: 48.5%;
   padding-top: 2%;
+  border: 1px solid black;
 }
 #tracks{
   position: relative;
