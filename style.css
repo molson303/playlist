@@ -1,4 +1,4 @@
-@@font-face {
+@font-face {
   font-family: "AvenirNextLTPro";
   src: url("fonts/AvenireNextLTPro-Regular.otf") format("opentype");
 
@@ -15,6 +15,24 @@
   width:100%;
   border: 1px solid black;
 }
+#header2{
+  background-color: #96927f;
+  height: 15vh;
+  width:100%;
+  border: 1px solid black;
+}
+#headertext{
+  color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: "AvenirNextLTPro";
+}
+
+
+
+
+
+
 .container-right{
   position: absolute;
   display: inline-block;
@@ -41,6 +59,16 @@
   padding-top: 2%;
   border: 1px solid black;
 }
+#footer2{
+  background-color: #96927f;;
+  height: 8vh;
+  width: 100%;
+  margin-top: 18.2%;
+  padding-bottom: 1%;
+  border: 1px solid black;
+  }
+
+
 #tracks{
   position: relative;
   width: 100%;
@@ -79,10 +107,20 @@ font-family: "AvenireNextLTPro", serif;
   font-family: "AvenireNextLTPro", serif;
   margin-left: 5%;
 }
+
+
 #crFont{
   font-family: "AvenireNextLTPro", serif;
   color: white;
 }
+
+#crFont2{
+  font-family: "AvenireNextLTPro", serif;
+  color: white;
+  margin-top: 3vh;
+
+}
+/*FIRST PAGE PICTURE SIZE*/
 #pic1{
   position: absolute;
   z-index: 2;
@@ -104,7 +142,7 @@ font-family: "AvenireNextLTPro", serif;
   height: 27vh;
   width: 40%;
 }
-
+/*FIRST PAGE PICTURE LAYOUT*/
 #pic1pos{
   margin-left: 30%;
   margin-top: 1%;
@@ -119,6 +157,72 @@ font-family: "AvenireNextLTPro", serif;
   margin-left: 30%;
   margin-top: 64%;
 }
+/*END FIRST PAGE PICTURES*/
+
+
+/* BEGIN SECOND PAGE PICTURES*/
+
+#piccolumn div{
+  margin-top: 2vh;
+  display: inline-block;
+  height:10vh;
+
+}
+
+#piccolumn div img{
+  height: 110%;
+}
+
+#piccolumn{
+
+  overflow: auto;
+  overflow-x: scroll;
+}
+
+#picpos4{
+  margin-left: 5%;
+}
+
+#picpos5{
+  margin-left: 5%;
+
+}
+#picpos6{
+  margin-left: 5%;
+}
+
+#picpos7{
+  margin-left: 5%;
+}
+
+#picpos8{
+
+  margin-left: 5%;
+}
+
+#textboxarea{
+  margin-left: 7vw;
+}
+#textBstyle{
+background-color: #b6a594;
+
+}
+
+.button2{
+  margin-left: 10vw;
+  font-size:27px;
+
+}
+#buttoncolor{
+background-color: #313236;
+color: white;
+border-radius: 10px;
+
+
+}
+
+
+
 
 p{
   font-family: "AvenireNextLTPro", serif;
