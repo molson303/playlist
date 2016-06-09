@@ -1,8 +1,8 @@
-@font-face {
+/*@font-face {
   font-family: "AvenirNextLTPro";
   src: url("fonts/AvenireNextLTPro-Regular.otf") format("opentype");
 
-}
+}*/
 
 *{
   margin: 0;
@@ -38,8 +38,10 @@
   }
 
 .container-right img {
+    opacity: 19%;
     height: 200px;
     width: 200px;
+
   }
 .container-left{
     height: 90vh;
@@ -141,26 +143,34 @@ font-size: 30px;
 }
 
 #textboxarea{
-  margin-left: 7vw;
+  background-color: #EEEEEE;
+  height: 25vh;
+  width: 55vw;
+  margin-left: 5em;
+  border: 2px solid black
 }
-#textBstyle{
-background-color: #EEEEEE;
 
-}
 
 .button2{
   margin-left: 10vw;
   font-size:27px;
 
 }
-#buttoncolor{
+#buttoncolor1{
 background-color: #353526;
 color: white;
 border-radius: 10px;
 
 
 }
+}
+#buttoncolor2{
+background-color: #353526;
+color: white;
+border-radius: 10px;
 
+
+}
 
 
 
